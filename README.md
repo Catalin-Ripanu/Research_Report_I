@@ -64,8 +64,8 @@ To run the quantum federated learning experiments using the provided environment
 
 1. **Clone the repository**:
    ```bash
-   git clone [repository-url]
-   cd [repository-directory]
+   git clone https://github.com/Catalin-Ripanu/Research_Report_I.git
+   cd Research_Report_I
    ```
 
 2. **Create and activate the conda environment**:
