@@ -10,7 +10,7 @@ a, b = sympy.symbols('a b')
 import cirq_ionq as ionq
 
 # API key is assumed to be stored as an env var named IONQ_API_KEY
-service = ionq.Service(Jol9nsgxnFOLFIuOib2OrbRLznzaoNa8)
+service = ionq.Service()
 
 # Parameters that the classical NN will feed values into.
 control_params = sympy.symbols('theta_1 theta_2 theta_3')
